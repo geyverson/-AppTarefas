@@ -7,6 +7,8 @@ buildscript {
         compileSdkVersion = 28
         targetSdkVersion = 28
         supportLibVersion = "28.0.0"
+        googlePlayServicesVersion = "+"
+        firebaseVersion = "+"
     }
     repositories {
         google()
@@ -34,7 +36,5 @@ allprojects {
 
         google()
         jcenter()
-        maven { url 'https://maven.google.com' }
-        maven { url "https://jitpack.io" }
     }
 }

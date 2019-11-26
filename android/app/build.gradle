@@ -128,12 +128,11 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.apptarefas"
+        applicationId "com.firebasestarter"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
-        vectorDrawables.useSupportLibrary = true
     }
     splits {
         abi {

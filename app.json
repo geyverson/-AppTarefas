@@ -1,4 +1,5 @@
 {
-  "name": "AppTarefas",
-  "displayName": "AppTarefas"
+  "name": "firebaseStarter",
+  "displayName": "AppTarefas",
+  "senderID": "YOUR-GCM-ID"
 }
